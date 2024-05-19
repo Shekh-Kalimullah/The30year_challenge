@@ -1,0 +1,120 @@
+h2{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#rock {
+  background-color: orangered;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+#paper {
+  background-color: rgb(69, 132, 78);
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  margin-right: 6px;
+}
+#scissors {
+  background-color: rgb(21, 6, 139);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+#reset-button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  margin-left: 20px;
+  
+  display: inline;
+
+}
+#auto-play-button{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  display: block;
+  position: fixed;
+  top: 300px;
+  
+}
+#div {
+
+  margin-top: 20px;
+  background-color: aqua;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  width: 200px;
+  border: 2px black solid;
+  border-radius: 4px;
+ 
+
+}
+#result{
+  margin-top: 20px;
+  background-color: #020246;
+  color: White;
+  font-weight: bold;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+#wins{
+  background-color: rgb(7, 142, 27);
+  display: inline-block;
+  margin-top: 20px;
+  color: white;
+  width: 65px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  border-radius: 2px;
+  padding-left: 8px;
+}
+#loses{
+  background-color: rgb(183, 9, 9);
+  display: inline-block;
+  margin-top: 20px;
+  color: white;
+  width: 65px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  border-radius: 2px;
+  padding-right: 10px;
+  
+  
+  
+
+}
+#ties{
+  background-color: rgb(20, 8, 159);
+  color: white;
+  display: inline-block;
+  margin-top: 20px;
+  width: 65px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 2px;
+  padding-left: 8px;
+
+}
+.paper{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}

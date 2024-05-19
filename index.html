@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+  <h2>Rock Paper Scissors</h2>
+  <button id="rock" onclick="
+   pickComputerMove();
+   playGame('rock');
+">Rock</button>
+
+  <button id="paper" onclick="
+  pickComputerMove();
+  playGame('paper');
+  ">Paper</button>
+
+  <button id="scissors"  onclick="
+ const computerMove = pickComputerMove();
+  playGame('scissors');
+  ">Scissors</button>
+  
+  <button id="reset-button" onclick="
+  score.wins = 0;
+  score.losses = 0;
+  score.ties = 0;
+  ">Resset</button>
+  
+
+  <div id="container">
+   
+  <div id="div"></div>
+  
+
+  </div>
+  <div id="wins"></div>
+  <div id="loses"></div>
+  <div id="ties"></div>
+ 
+  
+  <button id="auto-play-button" class="auto-play">Auto Play</button>
+  
+  
+  <script src="/scripts/script.js">
+   </script>
+</body>
+</html>
